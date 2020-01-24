@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: Arial;
+  font-size: 2rem;
+  overflow-wrap: break-word; }
+
+.container {
+  max-width: 100%;
+  min-width: 320px; }
+  .container .wrap {
+    max-width: 150rem;
+    min-width: 29rem;
+    padding: 0 15px;
+    margin: 0 auto; }
+
+.header {
+  background: url("../img/header/header_bg.png") center top no-repeat #000000;
+  background-size: cover; }
+  .header .header__wrap {
+    padding-bottom: 6.5rem; }
+  .header .top {
+    display: grid;
+    grid-template-columns: 224px 1fr;
+    grid-column-gap: 20px;
+    padding-top: 40px;
+    align-items: center; }
+    .header .top .logo__link {
+      display: block; }
+    .header .top .logo__img {
+      display: block;
+      max-width: 100%; }
+    .header .top .header__menu .menu__list {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      list-style-type: none; }
+      .header .top .header__menu .menu__list .menu-item {
+        font-size: 1.8rem;
+        line-height: 4rem;
+        letter-spacing: 6.3px;
+        text-transform: uppercase;
+        color: white;
+        margin-left: 6.5rem; }
+        .header .top .header__menu .menu__list .menu-item:first-child {
+          margin-left: 0; }
+        .header .top .header__menu .menu__list .menu-item .menu__link {
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          transition: all .5s; }
+        .header .top .header__menu .menu__list .menu-item .menu__link:hover, .header .top .header__menu .menu__list .menu-item:active, .header .top .header__menu .menu__list .menu-item:focus {
+          color: #f84545; }
+  .header .header__info {
+    margin-top: 16.6%;
+    margin-bottom: 16.6%; }
+    .header .header__info h1 {
+      color: #ffffff;
+      font-size: 6rem;
+      line-height: 7rem;
+      letter-spacing: 3.6rem;
+      font-weight: lighter;
+      text-align: center; }
+    .header .header__info p {
+      text-align: center; }
+      .header .header__info p a {
+        display: inline-block;
+        font-size: 3rem;
+        line-height: 7.5rem;
+        letter-spacing: 1.2rem;
+        color: #f84545;
+        text-decoration: none;
+        transition: all .5s; }
+      .header .header__info p a:hover {
+        transform: scale(1.2); }
+  .header .btn {
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 8.4rem;
+    height: 4.8rem; }
